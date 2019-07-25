@@ -142,8 +142,8 @@ First we must define a custom translator:
 import (
     "fmt"
 
-    "github.com/mmcdole/gofeed"
-    "github.com/mmcdole/gofeed/rss"
+    "github.com/godexsoft/gofeed"
+    "github.com/godexsoft/gofeed/rss"
 )
 
 type MyCustomTranslator struct {
