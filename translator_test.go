@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mmcdole/gofeed"
-	"github.com/mmcdole/gofeed/atom"
-	"github.com/mmcdole/gofeed/rss"
+	"github.com/bogdangomedia/gofeed"
+	"github.com/bogdangomedia/gofeed/atom"
+	"github.com/bogdangomedia/gofeed/rss"
 	"github.com/stretchr/testify/assert"
 )
 
