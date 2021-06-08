@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mmcdole/gofeed/atom"
-	ext "github.com/mmcdole/gofeed/extensions"
-	"github.com/mmcdole/gofeed/internal/shared"
-	"github.com/mmcdole/gofeed/rss"
+	"github.com/bogdangomedia/gofeed/atom"
+	ext "github.com/bogdangomedia/gofeed/extensions"
+	"github.com/bogdangomedia/gofeed/internal/shared"
+	"github.com/bogdangomedia/gofeed/rss"
 )
 
 // Translator converts a particular feed (atom.Feed or rss.Feed)

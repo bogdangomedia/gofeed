@@ -3,11 +3,11 @@ package shared
 import (
 	"bytes"
 	"fmt"
-	"golang.org/x/net/html"
 	"net/url"
 	"strings"
 
-	"github.com/mmcdole/goxpp"
+	xpp "github.com/mmcdole/goxpp"
+	"golang.org/x/net/html"
 )
 
 var (
