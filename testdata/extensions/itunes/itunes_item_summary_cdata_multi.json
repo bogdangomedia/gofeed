@@ -2,10 +2,28 @@
     "items": [
         {
             "itunesExt": {
-                "summary": "Line 1\n            Line 2\n            Line 3"
+                "summary": "Line 1\n            Line 2\n            Line 3",
+                "season": "2",
+                "episode": "5"
             },
             "extensions": {
                 "itunes": {
+                    "episode": [
+                        {
+                            "name": "episode",
+                            "value": "5",
+                            "attrs": {},
+                            "children": {}
+                        }
+                    ],
+                    "season": [
+                        {
+                            "name": "season",
+                            "value": "2",
+                            "attrs": {},
+                            "children": {}
+                        }
+                    ],
                     "summary": [
                         {
                             "name": "summary",

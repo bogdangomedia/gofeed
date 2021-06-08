@@ -11,6 +11,8 @@ Description: rss item itunes summary - cdata multiline
             Line 3
           ]]>
         </itunes:summary>
+        <itunes:season>2</itunes:season>
+        <itunes:episode>5</itunes:episode>
     </item>
   </channel>
 </rss>
