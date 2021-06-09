@@ -10,7 +10,7 @@ import (
 	"github.com/bogdangomedia/gofeed"
 	"github.com/bogdangomedia/gofeed/atom"
 	"github.com/bogdangomedia/gofeed/rss"
-	"github.com/codegangsta/cli"
+	"github.com/urfave/cli"
 )
 
 func main() {
