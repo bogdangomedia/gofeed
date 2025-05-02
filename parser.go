@@ -20,6 +20,7 @@ var ErrFeedTypeNotDetected = errors.New("Failed to detect feed type")
 type HTTPError struct {
 	StatusCode int
 	Status     string
+	Resp       *http.Response
 }
 
 func (err HTTPError) Error() string {
