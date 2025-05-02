@@ -103,6 +103,7 @@ func (f *Parser) ParseURL(feedURL string) (feed *Feed, err error) {
 		return nil, HTTPError{
 			StatusCode: resp.StatusCode,
 			Status:     resp.Status,
+			Resp:       resp,
 		}
 	}
 
